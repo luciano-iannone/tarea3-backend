@@ -41,6 +41,6 @@ app.get('/products/:pid', async (req, res) => {
 });
 
 
-app.listen(port, () => {
-    console.log(`Servidor Express iniciado en http://localhost:${port}`);
+app.listen(3000, () => {
+    console.log(`Servidor Express iniciado en http://localhost:${3000}`);
 });
